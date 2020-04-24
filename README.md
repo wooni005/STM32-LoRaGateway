@@ -14,5 +14,3 @@ The nodes are sending the messages with InvertIQ disabled and the gateway is als
 By using the technique a Gateway never receive messages from another Gateway
 and a Node never receive message from another Node.
 Only Gateway to Node and vice versa.
-
-24 apr 2020: Arjan Wooning
