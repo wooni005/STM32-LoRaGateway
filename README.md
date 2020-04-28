@@ -15,6 +15,19 @@ By using the technique a Gateway never receive messages from another Gateway
 and a Node never receive message from another Node.
 Only Gateway to Node and vice versa.
 
+## How to connect the RFM95W to the STM32F103
+
+| RFM95W | STM32F103 |
+| ------ | --------- |
+| VCC    | 3V3       |
+| GND    | GND       |
+| MISO   | PA6       |
+| MOSI   | PA7       |
+| SCK    | PA5       |
+| NSS    | PA4       |
+| RESET  | PC14      |
+| DIO0   | PA1       |
+
 ## Programming the board
 
 I'm using the Arduino IDE with [STM32duino](https://github.com/stm32duino/Arduino_Core_STM32) in the board manager. No need to flash the bootloader, flashing the board with STLink V2, with the STLink V2 there is no need to use the switch the boot jumpers.
