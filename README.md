@@ -1,5 +1,5 @@
 # STM32-LoRaGateway
-A STM32F103C8T6 (Blue Pill) LoRa Gateway. Not a LoRaWAN gateway for the The Things Network!
+A STM32F103C8T6 (Blue Pill) LoRa Gateway. A STM32F103C8T6 (Blue Pill) LoRa Gateway. A gateway from LoRa to USB serial interface. Not a LoRaWAN gateway for the The Things Network!
 
 This gateway is receiving and sending LoRa messages by using the HopeRF RFM95W chip.
 
@@ -12,8 +12,7 @@ This LoRa gateway is using the Arduino LoRa lib for interfacing the RFM95W.
 InvertIQ is used to send messages to the nodes, the nodes do need to receive the messages with InvertIQ enabled.
 The nodes are sending the messages with InvertIQ disabled and the gateway is also receiving by the InvertIQ disabled.
 By using the technique a Gateway never receive messages from another Gateway
-and a Node never receive message from another Node.
-Only Gateway to Node and vice versa.
+and a Node never receive message from another Nodes, only Gateway to Node and vice versa.
 
 ## How to connect the RFM95W to the STM32F103
 
